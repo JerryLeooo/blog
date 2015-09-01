@@ -5,7 +5,7 @@ git add .
 git commit -m "`curl -s http://whatthecommit.com | perl -p0e '($_)=m{<p>(.+?)</p>}s'`"
 git push origin master
 
-gitbook build --output=~/pages
+gitbook build . /Users/leo/pages
 cd ~/pages
 git init
 git add .
