@@ -38,5 +38,6 @@ bui# Summary
     * [速成绝无可能](thinkings/success-will-not-be-so-quick.md)
     * [找一家用Git的公司吧](thinkings/choose-a-company-using-git.md)
     * [实战中的系统设计方案及反思](thinkings/recent-thinking.md)
+    * [今天阅兵](thinkings/moon-cake.md)
 * [Translate](translate/index.md)
     * [变基指南](translate/how-to-rebase-a-pull-request.md)
