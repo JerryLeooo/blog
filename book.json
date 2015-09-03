@@ -1,0 +1,28 @@
+{
+    "gitbook": ">=2.0.0",
+    "author": "Jerry Leo",
+    "description": "",
+    "extension": null,
+    "generator": "site",
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": ["tree", "ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-64083050-1"
+        }
+    },
+    "title": "Jerry Saying",
+    "variables": {}
+}
