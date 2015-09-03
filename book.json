@@ -17,10 +17,13 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["tree", "ga"],
+    "plugins": ["tree", "ga", "disqus"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-64083050-1"
+        },
+        "disqus": {
+            "shortName": "jerrysaying"
         }
     },
     "title": "Jerry Saying",
