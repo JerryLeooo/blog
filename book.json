@@ -17,7 +17,7 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": ["tree", "ga", "disqus"],
+    "plugins": ["ga", "disqus"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-64083050-1"
