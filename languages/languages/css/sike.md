@@ -1,4 +1,4 @@
-# 思客前端课程笔记
+# 思客前端课程笔记 (1)
 
 ## 踏出第一步
 
@@ -58,3 +58,25 @@ body {
   - `background-position: center;` 使背景图居中
 
 - [Background In CSS: Everything You Need to Know](http://www.smashingmagazine.com/2009/09/backgrounds-in-css-everything-you-need-to-know/)
+
+### 居中外包围框
+
+- 作用：1. 居中内容；2. 围框中所有block元素的默认宽度是充满父级容器的宽度，不需要个别为每个元素设置宽度。
+- HTML
+
+```html
+<body>
+  <div class="container">
+    ...
+  </div>
+</body>
+```
+
+- CSS
+
+```css
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+```
