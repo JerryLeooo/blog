@@ -10,6 +10,8 @@ bui# Summary
     * [SQL]
         * [《SQL必知必会》读书笔记](languages/sql/sql-basic.md)
     * [Javascript]
+    * [CSS]
+        * [思客教学笔记](languages/css/sike.md)
     * [Java]
     * [C++]
 * [Algorithm Design]
