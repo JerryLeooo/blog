@@ -80,3 +80,34 @@ body {
   margin: 0 auto;
 }
 ```
+
+### CSS技巧 - 居中元素
+
+- HTML
+
+```html
+<img src="whales.png" class="centered-image"/>
+
+<div class="centered-container">
+  <!-- All inline elements are centered in this container. -->
+  <h1>Moby Dick</h1>
+  <img src="whales.png"/>
+</div>
+```
+
+```css
+.centered-image {
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.centered-container {
+  text-align: center;
+}
+```
+
+- 实现原理
+  - `display: block;` 把行内元素编程块元素
+  - `margin: 0 auto;` 居中块元素（元素一定要有`width`属性）
+  - `text-align: center;` 通过容器来居中行元素
