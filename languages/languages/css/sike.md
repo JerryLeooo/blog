@@ -45,7 +45,7 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
 
 ```css
 body {
-  background-image: url(../img/bg5.jpg)
+  background-image: url(../img/bg5.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
